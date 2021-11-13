@@ -1,0 +1,132 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 2px solid #555;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .box1{
+    position: static;
+  }
+  
+  .box2{
+    position: relative;
+    top: 20px;
+    left: 100px;
+  }
+  
+  .box3{
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+  
+  .box4{
+    position: fixed;
+    left: 300px;
+    top: 10px;
+  }
+  
+  .box5{
+    position: sticky;
+    left: 600px;
+    top: 10px;
+    background-color: black;
+    color: white;
+  }
+  .osnova_instagrama{
+    position: absolute;
+    border-radius: 75px;
+    background: linear-gradient(45deg,#FCA144,#B132A4);
+    left: 84%;
+    bottom: 50%;
+    width: 300px;
+    height: 300px;
+}
+.first_border_in_logo{
+    position: relative;
+    left: 34px;
+    top: 34px;
+    border: 25px white solid;
+    border-radius: 45px;
+    width: 175px;
+    height: 175px;
+}
+.tochka_in_border{
+    position: relative;
+    background: white;
+    border-radius: 100px;
+    left: 140px;
+    top: 10px;
+    width: 25px;
+    height: 25px;
+}
+.krug_in_border{
+    position: relative;
+    border: 25px white solid;
+    border-radius: 100px;
+    left: 22%;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+}
+.background__flag{
+    position: relative;
+    left:35%;
+    border: 3px gray solid;
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+.red_oval{
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+}
+.fire{
+    position: relative;
+    top: 50px;
+    transform: rotate(-135deg);
+    background: linear-gradient(#E43862, #FCA144);
+    width: 200px;
+    height: 200px;;
+    border-radius: 30% 70% 0% 100% / 30% 100% 0% 70%;
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 6px rgba(34, 60, 80, 0.2)
+}
+.brown{
+    position: relative;
+    width: 20px;
+    height: 25px;
+    background-color: #972424;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    left: 88px;
+    top: 50px;
+    -webkit-box-shadow: 0px -13px 13px 2px rgba(255, 255, 255, 0.82);
+    -moz-box-shadow: 0px -13px 13px 2px rgba(255, 255, 255, 0.82);
+    box-shadow: 0px -13px 13px 2px rgba(255, 255, 255, 0.82);
+    z-index: 2;
+}
+
+.palka{
+    position: relative;
+    background-color: #ffdfc4;
+    width: 15px;
+    height: 300px;
+    left:90px;
+    top: 45px;
+    z-index: 1;
+}
+.spichka{
+    position: absolute;
+    left: 45%;
+    bottom: 20%;
+}

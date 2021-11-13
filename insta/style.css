@@ -1,0 +1,34 @@
+.osnova_instagrama{
+    position: relative;
+    border-radius: 75px;
+    background: linear-gradient(45deg,#FCA144,#B132A4);
+    width: 300px;
+    height: 300px;
+}
+.first_border_in_logo{
+    position: relative;
+    left: 34px;
+    top: 34px;
+    border: 25px white solid;
+    border-radius: 45px;
+    width: 175px;
+    height: 175px;
+}
+.tochka_in_border{
+    position: relative;
+    background: white;
+    border-radius: 100px;
+    left: 140px;
+    top: 10px;
+    width: 25px;
+    height: 25px;
+}
+.krug_in_border{
+    position: relative;
+    border: 25px white solid;
+    border-radius: 100px;
+    left: 22%;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+}
